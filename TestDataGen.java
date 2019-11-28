@@ -67,8 +67,6 @@ public class  TestDataGen
       
       in = new BufferedReader (new InputStreamReader (System.in));
       int aaa = nextInt();
-      
-      
       for(int xx1 = 0;xx1<aaa;xx1++)
       {
         writer = new PrintWriter("in" + Integer.toString(xx1), "UTF-8");
